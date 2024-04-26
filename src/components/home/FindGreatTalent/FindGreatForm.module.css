@@ -1,0 +1,31 @@
+.border_wrapper{
+    box-shadow: 0px 16px 35px 0px #ABABAB1A;
+    background-image: linear-gradient(90.45deg, #F00CB1 0.39%, #FE6403 99.69%);
+    @apply p-[1px] rounded-[20px] w-full;
+}
+.wrapper{
+    @apply bg-fff p-[28px] w-full h-full rounded-[20px];
+}
+.heading{
+    @apply font-rethink-sans font-extrabold text-28 text-120A2C leading-9;
+}
+
+.form_wrapper{
+    @apply flex flex-col gap-4 w-full mt-4;
+}
+.form_field{
+    @apply bg-F5F5FC rounded-[16px] h-[56px] outline-none px-[20px] py-4 placeholder:text-[12px] placeholder:font-medium;
+
+}
+.label{
+    @apply font-general-sans font-medium text-120A2C text-xs leading-4 mb-2;
+}
+.field_wrapper{
+    @apply flex flex-col w-full;
+}
+.error_msg{
+    @apply text-red-500 text-xs mt-2;
+}
+.submit{
+    @apply flex w-fit mt-6
+}

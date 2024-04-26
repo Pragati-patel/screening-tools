@@ -1,0 +1,17 @@
+.wrapper{
+    @apply flex justify-center items-center flex-col pt-[50px];
+}
+.main_heading{
+    @apply font-rethink-sans lg:text-[54px] 2xl:text-56 md:text-48 text-42 font-extrabold lg:leading-[68px] leading-[56px] text-120A2C text-center my-3;
+}
+.img_wrapper{
+    @apply w-full my-[60px] flex justify-center;
+}
+.parant{
+    width: 100%;
+    background-image: url('../../../assets/bgImages/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}

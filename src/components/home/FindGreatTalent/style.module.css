@@ -1,0 +1,47 @@
+.parant{
+@apply w-full flex lg:flex-row flex-col gap-6 py-[120px] xl:py-0;
+}
+.left_part{
+@apply flex flex-col lg:w-1/2 w-full;
+}
+.main_heading{
+    @apply font-rethink-sans font-extrabold xl:text-48  text-42 leading-[58px]
+    
+}
+.right_part{
+    @apply flex lg:w-1/2 w-full;
+
+}
+.chip_wrapper{
+    @apply flex flex-col gap-8 w-full mt-[30px];
+}
+.chip_border{
+background-image: linear-gradient(90.45deg, #F00CB1 0.39%, #FE6403 99.69%);
+@apply p-[1px] rounded-[20px] md:w-[425.5px] flex;
+}
+.chip{
+@apply flex bg-fff  rounded-[20px] px-[18px] py-[10px] items-center md:w-[424px];
+}
+.chip_icon{
+@apply sm:w-[42px] sm:h-[42px] w-[38px] h-[38px]
+}
+.chip_heading{
+@apply lg:text-20 text-18 font-rethink-sans font-extrabold leading-6 text-120A2C ml-3 xs:mr-5 mr-3;
+}
+.chip_percent{
+@apply font-extrabold font-rethink-sans leading-10 lg:text-42 xs:text-38 text-[30px];
+}
+.bg_image{
+    width: 100%;
+    background-image: url('../../../assets/bgImages/gray.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    @apply xl:py-[100px]
+}
+@media screen and (max-width:1024px) {
+  .bg_image{
+    background-image: none;
+  }  
+    
+}

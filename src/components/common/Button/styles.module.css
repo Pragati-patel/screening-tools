@@ -1,0 +1,5 @@
+.button_wrapper{
+    @apply py-3 px-[21px] flex justify-center items-center rounded-[16px] text-fff lg:text-16 text-14 font-medium cursor-pointer font-general-sans leading-6;
+    background-image: linear-gradient(90.45deg, #F00CB1 0.39%, #FE6403 99.69%);
+
+}

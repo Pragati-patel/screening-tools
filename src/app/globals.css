@@ -2,32 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@font-face {
+    font-family: "General Sans";
+    src: url("../../public/fonts/GeneralSans-Variable.ttf");
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  @font-face {
+    font-family: "Rethink Sans";
+    src: url("../../public/fonts/RethinkSans-VariableFont_wght.ttf");
   }
-}
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Rethink Sans';
+  }
+  p {
+    font-family: "General Sans";
+  }
+
+h1,h2,h3,p{
+    margin: 0;
+  padding: 0;
+  }
+  body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'General Sans', sans-serif;
+  max-width: 100%;
+  }
+  .gradiant_color{
+    background-image: linear-gradient(90.45deg, #F00CB1 0.39%, #FE6403 99.69%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .sub_heading{
+    @apply lg:text-16 text-14 font-general-sans font-semibold leading-[30px] uppercase;
+    background-image: linear-gradient(90.45deg, #F00CB1 0.39%, #FE6403 99.69%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+  }
+  .description{
+    @apply font-medium lg:text-18 text-16 leading-7 font-general-sans text-120A2C;
+  }
