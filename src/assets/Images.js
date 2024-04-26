@@ -5,6 +5,7 @@ import booster from "./FindGreatTalent/booster.svg";
 import guessWork from "./FindGreatTalent/guessWork.svg";
 import right from "./FindGreatTalent/right.svg";
 import timer from "./FindGreatTalent/timer.svg";
+import RevolutionizeImg from "@/assets/Revolutionize.png";
 
 export const Images = {
   blueBg,
@@ -15,4 +16,6 @@ export const Images = {
   guessWork,
   right,
   timer,
+
+  RevolutionizeImg,
 };
