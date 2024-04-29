@@ -1,0 +1,31 @@
+.parant{
+    @apply flex w-full  gap-[70px] lg:flex-row flex-col my-10;
+}
+.left_part{
+    @apply flex 2xl:w-1/2 lg:w-[45%] w-full;
+}
+.right_part{
+    @apply flex 2xl:w-1/2 lg:w-[58%] flex-col w-full;
+
+}
+.smart_screen_img{
+    @apply w-full h-full;
+}
+.chip_wrapper{
+@apply flex gap-10 flex-col
+}
+.chip{
+@apply flex gap-6
+}
+.chip_icon{
+@apply w-[68px] h-[68px];
+}
+.chip_des{
+    @apply flex flex-col;
+}
+.chip_heading{
+@apply !font-extrabold !font-rethink-sans;
+}
+.chip_detail{
+@apply text-14 font-general-sans leading-[22px] text-120A2C mt-2
+}

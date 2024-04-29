@@ -8,6 +8,12 @@ import guessWork from "./FindGreatTalent/guessWork.svg";
 import right from "./FindGreatTalent/right.svg";
 import timer from "./FindGreatTalent/timer.svg";
 import RevolutionizeImg from "@/assets/Revolutionize.png";
+import smartScreenImg from '@/assets/smartScreening.png'
+import smartScrrenIcon1 from '@/assets/smartScreening/smart-screen-1.svg'
+import smartScrrenIcon2 from '@/assets/smartScreening/smart-screen-2.svg'
+import smartScrrenIcon3 from '@/assets/smartScreening/smart-screen-3.svg'
+import smartScrrenIcon4 from '@/assets/smartScreening/smart-screen-4.svg'
+import smartScrrenIcon5 from '@/assets/smartScreening/smart-screen-5.svg'
 
 export const Images = {
   blueBg,
@@ -22,4 +28,10 @@ export const Images = {
 
   RevolutionizeImg,
   howItWork,
+  smartScreenImg,
+  smartScrrenIcon1,
+  smartScrrenIcon2,
+  smartScrrenIcon3,
+  smartScrrenIcon4,
+  smartScrrenIcon5,
 };
