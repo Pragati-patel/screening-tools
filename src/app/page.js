@@ -1,5 +1,6 @@
 import Header from "@/components/common/Header";
 import BestFeatures from "@/components/home/Bestfeatures";
+import BottomCTA from "@/components/home/BottomCTA";
 import Difference from "@/components/home/Difference";
 import FindGreatTalent from "@/components/home/FindGreatTalent";
 import HeroSection from "@/components/home/HeroSection";
@@ -20,6 +21,7 @@ export default function Home() {
     <BestFeatures/>
     <Difference/>
     <HiringExperience/>
+    <BottomCTA/>
    </div>
   );
 }
