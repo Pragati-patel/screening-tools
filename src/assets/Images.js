@@ -15,6 +15,7 @@ import smartScrrenIcon3 from '@/assets/smartScreening/smart-screen-3.svg'
 import smartScrrenIcon4 from '@/assets/smartScreening/smart-screen-4.svg'
 import smartScrrenIcon5 from '@/assets/smartScreening/smart-screen-5.svg'
 import feature1 from '@/assets/features/feature-1.png'
+import differeceImg from '@/assets/difference.png'
 export const Images = {
   blueBg,
   greyBg,
@@ -36,4 +37,6 @@ export const Images = {
   smartScrrenIcon3,
   smartScrrenIcon4,
   smartScrrenIcon5,
+
+  differeceImg,
 };

@@ -1,5 +1,6 @@
 import Header from "@/components/common/Header";
 import BestFeatures from "@/components/home/Bestfeatures";
+import Difference from "@/components/home/Difference";
 import FindGreatTalent from "@/components/home/FindGreatTalent";
 import HeroSection from "@/components/home/HeroSection";
 import HowItWorks from "@/components/home/HowItWork";
@@ -16,6 +17,7 @@ export default function Home() {
     <HowItWorks/>
     <SmartScreening/>
     <BestFeatures/>
+    <Difference/>
    </div>
   );
 }
