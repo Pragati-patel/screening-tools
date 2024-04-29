@@ -1,4 +1,5 @@
 import Header from "@/components/common/Header";
+import BestFeatures from "@/components/home/Bestfeatures";
 import FindGreatTalent from "@/components/home/FindGreatTalent";
 import HeroSection from "@/components/home/HeroSection";
 import HowItWorks from "@/components/home/HowItWork";
@@ -14,6 +15,7 @@ export default function Home() {
     <Revolutionize/>
     <HowItWorks/>
     <SmartScreening/>
+    <BestFeatures/>
    </div>
   );
 }

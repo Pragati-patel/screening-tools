@@ -14,7 +14,7 @@ import smartScrrenIcon2 from '@/assets/smartScreening/smart-screen-2.svg'
 import smartScrrenIcon3 from '@/assets/smartScreening/smart-screen-3.svg'
 import smartScrrenIcon4 from '@/assets/smartScreening/smart-screen-4.svg'
 import smartScrrenIcon5 from '@/assets/smartScreening/smart-screen-5.svg'
-
+import feature1 from '@/assets/features/feature-1.png'
 export const Images = {
   blueBg,
   greyBg,
@@ -25,6 +25,8 @@ export const Images = {
   guessWork,
   right,
   timer,
+
+  feature1,
 
   RevolutionizeImg,
   howItWork,
