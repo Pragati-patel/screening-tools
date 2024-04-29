@@ -46,3 +46,6 @@ h1,h2,h3,p{
   .description{
     @apply font-medium lg:text-18 text-16 leading-7 font-general-sans text-120A2C;
   }
+  .heading{
+    @apply lg:text-48 text-42 leading-[58px] font-extrabold font-rethink-sans text-120A2C my-3;
+}

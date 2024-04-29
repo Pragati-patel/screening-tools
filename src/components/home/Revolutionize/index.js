@@ -14,7 +14,7 @@ export default function Revolutionize() {
     <div className={styles.bg_image}>
       <Container otherStyles={styles.parant}>
         <div className="sub_heading">{subheading}</div>
-        <div className={styles.heading}>{heading}</div>
+        <div className={"heading !text-fff"}>{heading}</div>
         <div className="description !text-fff">{description}</div>
       </Container>
     </div>

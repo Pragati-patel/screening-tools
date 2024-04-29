@@ -1,9 +1,7 @@
 .parant{
     @apply flex  justify-center items-center flex-col text-center lg:w-[80%] xs:w-[90%] w-full mx-auto;
 }
-.heading{
-    @apply lg:text-48 text-42 leading-[58px] font-extrabold font-rethink-sans text-fff my-3;
-}
+
 .bg_image{
     width: 100%;
     background-image: url('../../../assets/bgImages/blue-bg.png');
@@ -11,11 +9,11 @@
     background-position: bottom;
     background-size: cover;
 
-    @apply py-[120px] pb-[350px]
+    @apply py-[120px] pb-[350px] relative z-10
 }
 .img_wrapper{
     @apply flex w-full justify-center relative
 }
 .image{
-    @apply absolute top-[-280px];
+    @apply absolute top-[-280px] z-10;
 }

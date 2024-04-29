@@ -1,0 +1,18 @@
+.parant{
+@apply w-full relative ;
+}
+.bg_image_wrapper{
+@apply relative top-[-182px] 
+}
+.heading{
+    @apply font-rethink-sans lg:text-[48px] text-42 font-extrabold lg:leading-[58px] leading-[42px] text-120A2C  my-3;
+}
+.how_it_bg{
+    @apply w-full h-full;
+}
+.img{
+    @apply w-full h-full mt-4
+}
+.content_wrapper{
+    @apply absolute bottom-[-10px] xl:bottom-[10px] 4xl:bottom-12;
+}
