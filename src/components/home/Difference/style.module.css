@@ -1,0 +1,18 @@
+.box_wrapper{
+    border: 0.38px solid #120A2C26 ;
+    @apply w-full p-8 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 2xl:gap-[34px] gap-[20px] my-[80px] rounded-md;
+}
+.data_wrapper{
+    @apply  flex rounded-lg flex-col py-4 px-3;
+    border: 0.38px solid #120A2C26
+}
+.line{
+    @apply flex w-full my-2 border-[0.35px] border-[#120A2C26] ;
+}
+.element{
+    @apply text-120A2C text-[12px] leading-[27px] font-medium flex gap-2;
+
+}
+.content_btn{
+    @apply bg-120A2C rounded-[3px] text-16 font-rethink-sans font-semibold px-3 py-2 text-fff mb-6
+}

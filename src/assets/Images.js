@@ -16,6 +16,9 @@ import smartScrrenIcon4 from '@/assets/smartScreening/smart-screen-4.svg'
 import smartScrrenIcon5 from '@/assets/smartScreening/smart-screen-5.svg'
 import feature1 from '@/assets/features/feature-1.png'
 import differeceImg from '@/assets/difference.png'
+import rightCheck from '@/assets/right-check.svg'
+import cross from '@/assets/cross.svg'
+
 export const Images = {
   blueBg,
   greyBg,
@@ -39,4 +42,6 @@ export const Images = {
   smartScrrenIcon5,
 
   differeceImg,
+  rightCheck,
+  cross,
 };
