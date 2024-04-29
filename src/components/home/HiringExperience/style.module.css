@@ -1,0 +1,12 @@
+.box_wrapper{
+    @apply grid lg:grid-cols-3 grid-cols-1 w-full my-10 gap-7
+}
+.box{
+    @apply px-9 py-7 flex justify-center items-center gap-5 bg-[#F8F8FA] rounded-2xl;
+}
+.col_wrapper{
+    @apply flex flex-col gap-5 justify-center
+}
+.box_icon{
+    @apply w-[64px] h-[64px]
+}

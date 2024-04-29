@@ -18,12 +18,23 @@ import feature1 from '@/assets/features/feature-1.png'
 import differeceImg from '@/assets/difference.png'
 import rightCheck from '@/assets/right-check.svg'
 import cross from '@/assets/cross.svg'
+import bulkInvites from '@/assets/hiringExperience/bulk-invites.svg'
+import customerQues from '@/assets/hiringExperience/customer-question.svg'
+import reviewRecordings from '@/assets/hiringExperience/review-recordings.svg'
+import unbaiseFeedback from '@/assets/hiringExperience/unbaise-feedback.svg'
+import whiteLabelling from '@/assets/hiringExperience/white-labelling.svg'
 
 export const Images = {
   blueBg,
   greyBg,
   heroBg,
   howWorkBg,
+
+  bulkInvites,
+  customerQues,
+  reviewRecordings,
+  unbaiseFeedback,
+  whiteLabelling,
 
   booster,
   guessWork,
