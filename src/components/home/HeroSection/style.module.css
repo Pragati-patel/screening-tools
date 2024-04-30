@@ -1,11 +1,11 @@
 .wrapper{
-    @apply flex justify-center items-center flex-col pt-[50px];
+    @apply flex justify-center items-center flex-col lg:pt-[50px] pt-5;
 }
 .main_heading{
     @apply font-rethink-sans lg:text-[54px] 2xl:text-56 md:text-48 text-42 font-extrabold lg:leading-[68px] leading-[56px] text-120A2C text-center my-3;
 }
 .img_wrapper{
-    @apply w-full my-[60px] flex justify-center;
+    @apply w-full lg:my-[60px] md:my-[30px] my-5 flex justify-center;
 }
 .parant{
     width: 100%;

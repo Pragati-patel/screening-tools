@@ -36,7 +36,7 @@ export default function FindGreatTalent() {
   ];
   return (
     <div className={styles.bg_image}>
-    <Container otherStyles={'my-10 w-full'}>
+    <Container otherStyles={'lg:my-10 my-5 w-full'}>
       <div className={styles.parant}>
         <div className={styles.left_part}>
           <div className="sub_heading">{subheading}</div>

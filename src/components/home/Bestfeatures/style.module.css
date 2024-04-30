@@ -28,5 +28,5 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    @apply xl:py-[100px] mt-32;
+    @apply xl:py-[100px] py-5 lg:mt-32;
 }

@@ -1,5 +1,5 @@
 .parant{
-    @apply flex my-[140px] flex-col justify-center items-center w-full
+    @apply flex xl:my-[140px] lg:my-[100px] md:my-[60px] my-[30px] flex-col justify-center items-center w-full
 }
 .grey_heading{
 @apply leading-[68px] lg:text-[54px] 2xl:text-56 md:text-48 text-42 lg:leading-[88px] text-[#ACACAC] font-rethink-sans text-center;

@@ -35,7 +35,7 @@ export default function Difference() {
   ];
 
   return (
-    <Container otherStyles={"my-[100px]"}>
+    <Container otherStyles={"lg:my-[100px] md:my-[60px] my-[30px] "}>
       <div className={styles.parant}>
         <div>
           <p className="sub_heading">{subheading}</p>

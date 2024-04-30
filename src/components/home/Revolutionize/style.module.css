@@ -9,7 +9,7 @@
     background-position: bottom;
     background-size: cover;
 
-    @apply py-[120px] pb-[350px] relative z-10
+    @apply lg:py-[120px] pb-[350px] pt-10 relative z-10
 }
 .img_wrapper{
     @apply flex w-full justify-center relative

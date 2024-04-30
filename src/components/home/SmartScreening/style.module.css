@@ -1,5 +1,5 @@
 .parant{
-    @apply flex w-full  gap-[70px] lg:flex-row flex-col my-10;
+    @apply flex w-full  gap-[70px] lg:flex-row flex-col lg:my-10 my-5;
 }
 .left_part{
     @apply flex 2xl:w-1/2 lg:w-[45%] w-full;
